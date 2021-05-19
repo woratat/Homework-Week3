@@ -1,6 +1,8 @@
 .flex-container{
     display: flex;
     flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: center;
 }
 img{
     width: 300px;
@@ -22,18 +24,17 @@ img{
     width: 800px;
 }
 .flex-item h2{
-    color: rgb(82, 85, 116);
+    color: rgb(50, 53, 78);
     opacity: 0.7;
     background-color: rgb(171,179,226);
     padding: 5px;
-    border-radius: 15px;
+    border-radius: 12px;
 }
 body{
     background-color: rgba(192, 199, 240, 0.199);
 }
 h1{
     text-align: center;
-    text-decoration: ;
 }
 .flex-item h1{
     color: #4f176c;
