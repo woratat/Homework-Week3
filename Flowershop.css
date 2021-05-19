@@ -1,0 +1,40 @@
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+img{
+    width: 300px;
+    height: auto;
+    margin: 5px;
+    border-radius: 10px;
+}
+.flex-container>div{
+    margin: 15px;
+    border: 5px solid rgb(153,161,205);
+    border-radius: 15px;
+    padding: 8px;
+    background-color: rgba(187, 194, 235, 0.37);
+}
+.flex-item{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 800px;
+}
+.flex-item h2{
+    color: rgb(82, 85, 116);
+    opacity: 0.7;
+    background-color: rgb(171,179,226);
+    padding: 5px;
+    border-radius: 15px;
+}
+body{
+    background-color: rgba(192, 199, 240, 0.199);
+}
+h1{
+    text-align: center;
+    text-decoration: ;
+}
+.flex-item h1{
+    color: #4f176c;
+}
