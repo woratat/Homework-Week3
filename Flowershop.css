@@ -14,7 +14,7 @@ img{
     margin: 15px;
     border: 5px solid rgb(153,161,205);
     border-radius: 15px;
-    padding: 8px;
+    padding: 5px 20px 5px 20px;
     background-color: rgba(187, 194, 235, 0.37);
 }
 .flex-item{
@@ -22,12 +22,15 @@ img{
     flex-flow: column wrap;
     align-items: center;
     width: 800px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .flex-item h2{
     color: rgb(50, 53, 78);
     opacity: 0.7;
     background-color: rgb(171,179,226);
-    padding: 5px;
+    padding: 7px;
     border-radius: 12px;
 }
 body{
@@ -39,3 +42,31 @@ h1{
 .flex-item h1{
     color: #4f176c;
 }
+.banner{
+    letter-spacing: 10px;
+    font-size: 64px;
+    text-shadow: 2px 2px 2px blueviolet;
+    color: lavender;
+    background-color: #b884e6c4;
+    margin-top: 0px;
+    padding: 20px 20px;
+}
+span {
+    background-color: #ad7ad6;
+    padding: 4px 4px 8px 15px;
+    border-radius: 20px;
+}
+h2:hover{
+background-color: #b3e2ab;
+cursor: pointer;
+}
+.footer {
+    font-size: 32px;
+    text-shadow: 2px 2px 2px rgb(165, 91, 235);
+    color: lavender;
+    background-color: #b884e6c4;
+    margin-top: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
